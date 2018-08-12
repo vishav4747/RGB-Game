@@ -1,0 +1,106 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	margin-top: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.color_white{
+	color:white;
+}
+.class_green{
+	background-color: steelblue;
+	color: white; 
+	transition : all 0.3s;
+	--webkit-transition : all 0.3s;
+}
+#below_header_nav
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: white;
+	padding-right: 24%;
+	padding-left: 23%;
+	color: steelblue;
+}
+#nav_span{
+	padding-bottom: 0px;
+	height: 100%;
+	font-size: inherit;
+}
+#nav_span2
+{
+	float:right;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#nav_span3
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	float:right;
+}
+#success_span{
+	float:right;
+	text-align: left;
+	width: 30%;
+	padding-right: 120px;
+}
+.square{
+	width: 24%;
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	float: left;
+	margin-bottom: 5% ;
+	margin-left: 5%;
+	border-radius: 5%;
+	transition: background 1.4s;
+	--webkit-transition: background 1.4s;
+}
+#header
+{
+	line-height: 1.4;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 1.1em;
+	letter-spacing: 1.2;
+}
+h1{
+	margin-top: 0px;
+	background-color: steelblue;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+#header_rgb
+{
+	font-size: 1.5em;
+}
+
+@media (max-width:590px) {
+.square{
+    width: 30%;/*The width is 100%, when the viewport is 800px or smaller*/
+    padding-top: 50px;
+}
+
+#below_header_nav{
+	padding-right: 0%;
+	padding-left: 0%;
+}
+
+}
+@media (max-width:800px) {
+
+#below_header_nav{
+	padding-right: 10%;
+	padding-left: 10%;
+}
+#success_span{
+	padding-right: 0px;
+	width:0%;
+}
+}
